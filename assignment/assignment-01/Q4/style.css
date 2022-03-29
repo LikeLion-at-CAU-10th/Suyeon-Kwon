@@ -8,13 +8,16 @@
     border-radius: 2em;
 }
 
-/* 질문: title을 box 안에 포함시켜두었는데 왜 title에는 text-align:center가 적용되지 않는지 궁금해요..ㅠ.ㅠ */
+/* 질문: title을 box 안에 묶어두었는데 box에 적용해둔 text-align:center이 왜 title에는 적용되지 않는지 궁금해요..ㅠ.ㅠ */
 .title { 
-    background-color:cornsilk;         
+    background-color:cornsilk;      
+    text-align:center;   
     width: 200px;
     border-radius: 2em;
 }
 
+/* 질문: bottom 안에 이미지가 묶여있어서 그런지 bottom 자체에서 width를 바꾸면 이미지도 같이 width가 바뀌더라고요..!
+이런 문제는 어떻게 해결하는게 좋나요?? */
 .bottom {
     display: flex;
     background-color:brown;
@@ -31,4 +34,5 @@
     font-size:40px;
     padding-left:50px;
 }
+
 
