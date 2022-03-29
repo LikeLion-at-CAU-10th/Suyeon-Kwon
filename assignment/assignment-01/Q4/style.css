@@ -1,0 +1,34 @@
+.box {
+    background-color:bisque; 
+    color:rgba(1, 2, 1, 0.747); 
+    text-align:center;
+    width: 50%;
+    height: 350px;
+    border:1px solid black;
+    border-radius: 2em;
+}
+
+/* 질문: title을 box 안에 포함시켜두었는데 왜 title에는 text-align:center가 적용되지 않는지 궁금해요..ㅠ.ㅠ */
+.title { 
+    background-color:cornsilk;         
+    width: 200px;
+    border-radius: 2em;
+}
+
+.bottom {
+    display: flex;
+    background-color:brown;
+    width: 100%;
+    height: 180px;
+    border-radius: 2em;
+}
+
+.bottom img {
+    margin-left:30px;
+}
+
+.bottom p {
+    font-size:40px;
+    padding-left:50px;
+}
+
