@@ -27,6 +27,7 @@ body {
 
 .layout-post {
     display: flex;
+    justify-content: center;
     justify-content: space-evenly;
     flex-basis: 23%;
 }
