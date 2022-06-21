@@ -1,0 +1,13 @@
+@import "./variables";
+
+@mixin box-default($margin) {
+    margin: 0px;
+}
+
+.navigator {
+    @include box-default;
+}
+
+.introduction>h2 {
+    @include box-default;
+}
